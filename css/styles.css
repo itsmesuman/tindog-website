@@ -1,0 +1,160 @@
+/* Navbar */
+
+.margleft {
+  margin-left: auto;
+}
+
+/* title */
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.h1p {
+  font-family: "Montserrat", sans-serif;
+  size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+.title-image {
+  width: 17%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 21%;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+p {
+  color: #8f8f8f;
+}
+
+/* Features */
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+.features-box {
+  text-align: center;
+  padding: 5% 2%;
+  margin-right: 0%;
+  margin-left: 0%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+/* Testimonials */
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonials-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+  padding-top: 13px;
+  margin-top: 0;
+  border: 2px solid #ef8172;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px;
+}
+
+/* pricing */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricingcol {
+  padding: 3% 2%;
+}
+
+/* Call to action */
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+.h1cta {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+  text-align: center;
+}
+
+/* Footer */
+
+.foot {
+  background-color: white;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+#footer p {
+  color: gray;
+  margin-top: 2%;
+}
+.logof {
+  padding: 0% 1%;
+}
+
+/* mobile */
+
+@media (max-width: 992px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+}
